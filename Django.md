@@ -63,3 +63,37 @@ INSTALLED_APPS = [
 ```
 
 ### configuration in ```urls.py```
+
+## deploy
+
+### requirement.txt
+
+```pip freeze > requirements.txt```
+
+### docker-compose
+
+#### Dockerfile
+
+```Dockerfile
+FROM python:3
+ENV PYTHONUNBUFFERED 1
+RUN mkdir /www
+WORKDIR /www
+COPY . /www/
+RUN pip install -r requirements.txt
+```
+
+#### docker-compose.yml
+
+```yml
+version: '3'
+
+services:
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/www
+    ports:
+      - "80:8000"
+```
