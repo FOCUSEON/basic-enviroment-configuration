@@ -8,7 +8,7 @@
 |-|-|-|
 |LANGUAGE|LANGUAGE_CODE = 'zh-Hans'|-|
 |TIME_ZONE|TIME_ZONE = 'Asia/Shanghai'|-|
-|USE_TZ = False||不使用时区|
+|USE_TZ|USE_TZ = False|不使用时区|
 
 ### Database
 
