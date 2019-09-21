@@ -91,8 +91,7 @@ sudo apt-get install docker-ce
 
 ```sudo sed -i 's+download.docker.com+mirrors.tuna.tsinghua.edu.cn/docker-ce+' /etc/yum.repos.d/docker-ce.repo```
 
-最后安
-装:
+最后安装:
 ```bash
 sudo yum makecache fast
 sudo yum install docker-ce
