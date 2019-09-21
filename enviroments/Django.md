@@ -29,10 +29,10 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sends',
-        'USER': 'sends',
-        'PASSWORD': 'Database@sends',
-        'HOST': 'rm-wz9z2w12238s762pnxo.mysql.rds.aliyuncs.com',
+        'NAME': 'name',
+        'USER': 'root',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"},
         'AUTOCOMMIT': True
