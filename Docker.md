@@ -101,10 +101,10 @@ sudo yum install docker-ce
 
 ### install 
 
-Download the current stable release of Docker Compose
+下载当前的稳定版本
 
 ```sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose```
 
-Apply executable permissions to the binary
+添加可执行权限
 
 ```sudo chmod +x /usr/local/bin/docker-compose```
