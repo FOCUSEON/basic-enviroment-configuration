@@ -12,7 +12,7 @@
 
 ### Database
 
-#### sqlite
+#### Sqlite
 
 ```python
 DATABASES = {
@@ -23,7 +23,7 @@ DATABASES = {
 }
 ```
 
-#### mysql
+#### Mysql
 
 ```python
 DATABASES = {
@@ -46,7 +46,7 @@ DATABASES = {
 2. [Django database](https://docs.djangoproject.com/en/2.2/ref/databases/)
 3. [Time zones](https://docs.djangoproject.com/en/2.2/topics/i18n/timezones/)
 
-## ```Djangorestframework```
+## Djangorestframework
 
 ### installization
 
@@ -64,7 +64,7 @@ INSTALLED_APPS = [
 
 ### configuration in ```urls.py```
 
-## deploy
+## Deploy
 
 ### requirement.txt
 
