@@ -6,5 +6,7 @@ The basic configuration of the common development environment, the record is use
 
 |Serial Number|Name|Link|
 |-|-|-|
-|1|Django|[Django.md](https://github.com/FOCUSEON/basic-enviroment-configuration/blob/master/enviroments/Django.md)|
-|2|Docker|[Docker.md](https://github.com/FOCUSEON/basic-enviroment-configuration/blob/master/enviroments/Docker.md)|
+|1|Django|[Django.md](./project_enviroment/Django.md)|
+|2|Docker|[Docker.md](./project_enviroment/Docker.md)|
+|3|zsh|[zsh.md](./linux_enviroment/zsh.md)|
+|4|vim|[vim.md](./linux_enviroment/vim.md)|

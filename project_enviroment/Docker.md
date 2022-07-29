@@ -3,6 +3,7 @@
     转载自清华大学开源镜像站
 
 ## Debian/Ubuntu 用户
+
 以下内容根据[官方文档](https://docs.docker.com/engine/installation/linux/docker-ce/debian/)修改而来。
 
 如果你过去安装过 docker，先删掉:
@@ -13,7 +14,7 @@
 
 ```sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common```
 
-### Debian 
+### Debian
 
 信任 Docker 的 GPG 公钥:
 
@@ -35,6 +36,7 @@ echo "deb [arch=armhf] https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/debi
      $(lsb_release -cs) stable" | \
     sudo tee /etc/apt/sources.list.d/docker.list
 ```
+
 最后安装
 
 ```bash
@@ -71,6 +73,7 @@ echo "deb [arch=armhf] https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/ubun
 sudo apt-get update
 sudo apt-get install docker-ce
 ```
+
 ## Fedora/CentOS/RHEL
 
 以下内容根据[官方文档](https://docs.docker.com/engine/installation/linux/docker-ce/centos/)修改而来。
@@ -92,6 +95,7 @@ sudo apt-get install docker-ce
 ```sudo sed -i 's+download.docker.com+mirrors.tuna.tsinghua.edu.cn/docker-ce+' /etc/yum.repos.d/docker-ce.repo```
 
 最后安装:
+
 ```bash
 sudo yum makecache fast
 sudo yum install docker-ce
@@ -99,7 +103,7 @@ sudo yum install docker-ce
 
 ## Docker-compose
 
-### install 
+### install
 
 下载当前的稳定版本
 
