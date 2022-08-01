@@ -14,6 +14,7 @@ sudo apt install -y wget git vim zsh
 if [ -d ~/.oh-my-zsh ]; then
 	echo "oh-my-zsh is installed"
 else
+  # https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh
  	sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 fi
 # .zshrc location
